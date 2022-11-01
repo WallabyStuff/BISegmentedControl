@@ -37,12 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02B25C0A060AF699BFE71CE190C5E524 /* BISegmentedControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BISegmentedControl.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		02B25C0A060AF699BFE71CE190C5E524 /* BISegmentedControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BISegmentedControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0742690D639B2B9BFACDF82264C4290D /* Pods-BISegmentedControl_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BISegmentedControl_Tests-Info.plist"; sourceTree = "<group>"; };
 		09858A77B5DB6CC1CC26D1AECB34A932 /* BISegmentedControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BISegmentedControl-Info.plist"; sourceTree = "<group>"; };
 		139A6C5A7B55576385382D018620EEF4 /* Pods-BISegmentedControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BISegmentedControl_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1D7C60F1AE21441CCD108BABDE023D2C /* BISegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BISegmentedControl.swift; path = Sources/Classes/BISegmentedControl.swift; sourceTree = "<group>"; };
-		1D7E40986CF16823E3D973C85C1AD0A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1D7E40986CF16823E3D973C85C1AD0A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1D99CA51A4925F17FFFB51CA43855989 /* Pods-BISegmentedControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BISegmentedControl_Tests-dummy.m"; sourceTree = "<group>"; };
 		3625B52669E32ABDA55DABA4A6AD5514 /* Pods-BISegmentedControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BISegmentedControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3854183303F915FA687BED67540B76FC /* Pods-BISegmentedControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BISegmentedControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -51,12 +51,12 @@
 		4C495CAAE97B250456600168925656B5 /* Pods-BISegmentedControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BISegmentedControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		65C96BE03BFE361A4FBABC3C2B1DB448 /* Pods-BISegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BISegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		686876D5FA16942930B30ED3D745AD02 /* BISegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BISegmentedControl-umbrella.h"; sourceTree = "<group>"; };
-		693696E9E0CD0E683B44095421C9D8E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		693696E9E0CD0E683B44095421C9D8E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		711BE1431F5781DEC9B107F88549D32E /* BISegmentedControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BISegmentedControl.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		743160CAD91FBAE037FAC8C1FCE6BEDB /* Pods-BISegmentedControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BISegmentedControl_Tests.modulemap"; sourceTree = "<group>"; };
 		8DD4BCDD06F556E00BA4BDBCF163D231 /* Pods-BISegmentedControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BISegmentedControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5BCEDD6FD3F8328C107F7D02D182ACE /* Pods-BISegmentedControl_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BISegmentedControl_Example"; path = Pods_BISegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C8F601E04AC85AB80537C98C6DDFDF /* Pods-BISegmentedControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BISegmentedControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AF5A2E880B09165686650EED1858E295 /* Pods-BISegmentedControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BISegmentedControl_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -664,7 +664,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
