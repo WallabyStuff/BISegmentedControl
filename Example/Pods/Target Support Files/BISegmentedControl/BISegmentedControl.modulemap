@@ -1,0 +1,6 @@
+framework module BISegmentedControl {
+  umbrella header "BISegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

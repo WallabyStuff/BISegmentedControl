@@ -1,10 +1,11 @@
 //
-//  AppDelegate.swift
 //  BISegmentedControl
+//  AppDelegate.swift
 //
-//  Created by SunneyG on 11/01/2022.
-//  Copyright (c) 2022 SunneyG. All rights reserved.
+//  Created by Wallaby
+//  Copyright © 2022 Wallaby. All rights reserved. 2022/11/01
 //
+  
 
 import UIKit
 

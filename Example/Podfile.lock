@@ -1,0 +1,16 @@
+PODS:
+  - BISegmentedControl (0.1.0)
+
+DEPENDENCIES:
+  - BISegmentedControl (from `../`)
+
+EXTERNAL SOURCES:
+  BISegmentedControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BISegmentedControl: 6633d33c14f60b17ac4651eb44836225789d6882
+
+PODFILE CHECKSUM: bd33ff0e037b50d27680b7df5e6794b2270d78c9
+
+COCOAPODS: 1.11.3
