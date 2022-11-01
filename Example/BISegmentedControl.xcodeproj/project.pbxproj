@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6FF322C9D1812CA7C42B9D8F /* Pods_BISegmentedControl_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58536CD6FAABB12BFCD25212 /* Pods_BISegmentedControl_Tests.framework */; };
+		8EB70D092910ED1500F84FB7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 607FACEA1AFB9204008FA782 /* Info.plist */; };
+		8EB70D0A2910ED1800F84FB7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 607FACEA1AFB9204008FA782 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001FA25429DEE39AEF5D68EC /* BISegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BISegmentedControl.podspec; path = ../BISegmentedControl.podspec; sourceTree = "<group>"; };
+		001FA25429DEE39AEF5D68EC /* BISegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BISegmentedControl.podspec; path = ../BISegmentedControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4A66397281398032F4994020 /* Pods-BISegmentedControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BISegmentedControl_Example.release.xcconfig"; path = "Target Support Files/Pods-BISegmentedControl_Example/Pods-BISegmentedControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4ABE10A0B346E64BB3F7CAB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4EFF02EB7DD483BB8F40F742 /* Pods_BISegmentedControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BISegmentedControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB70D0A2910ED1800F84FB7 /* Info.plist in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB70D092910ED1500F84FB7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,7 +530,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BISegmentedControl_Example.app/BISegmentedControl_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BISegmentedControl_Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BISegmentedControl_Example";
 			};
 			name = Debug;
 		};
@@ -545,7 +549,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BISegmentedControl_Example.app/BISegmentedControl_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BISegmentedControl_Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BISegmentedControl_Example";
 			};
 			name = Release;
 		};
