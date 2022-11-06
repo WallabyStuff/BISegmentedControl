@@ -1,0 +1,6 @@
+framework module Pods_BISegmentedControl_Example {
+  umbrella header "Pods-BISegmentedControl_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
