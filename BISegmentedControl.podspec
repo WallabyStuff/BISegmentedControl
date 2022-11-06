@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/SunneyG/BISegmentedControl'
+  s.homepage         = 'https://github.com/WallabyStuff/BISegmentedControl'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'SunneyG' => 'avocado34.131@gmail.com' }
-  s.source           = { :git => 'https://github.com/SunneyG/BISegmentedControl.git', :tag => s.version.to_s }
+  s.author           = { 'Wallaby' => 'avocado34.131@gmail.com' }
+  s.source           = { :git => 'https://github.com/WallabyStuff/BISegmentedControl.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'BISegmentedControl/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   
   # s.resource_bundles = {
   #   'BISegmentedControl' => ['BISegmentedControl/Assets/*.png']
