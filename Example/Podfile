@@ -5,9 +5,4 @@ platform :ios, '11.0'
 target 'BISegmentedControl_Example' do
   pod 'BISegmentedControl', :path => '../'
 
-  target 'BISegmentedControl_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
