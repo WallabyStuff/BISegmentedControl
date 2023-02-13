@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BISegmentedControl'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'The bottom indicator segmented control'
   s.swift_versions   = '5.0'
 
