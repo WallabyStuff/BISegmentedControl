@@ -9,7 +9,7 @@
 import UIKit
 
 @objc
-protocol BISegmentedControlDelegate: AnyObject {
+public protocol BISegmentedControlDelegate: AnyObject {
   @objc optional
   func BISegmentedControl(didSelectSegmentAt index: Int)
 }
@@ -18,7 +18,7 @@ open class BISegmentedControl: UIControl {
   
   // MARK: - Properties
   
-  weak var delegate: BISegmentedControlDelegate?
+  open weak var delegate: BISegmentedControlDelegate?
   private let stackView = UIStackView()
   private let barIndicator = UIView()
   

@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BISegmentedControl'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BISegmentedControl.'
+  s.version          = '0.1.1'
+  s.summary          = 'The bottom indicator segmented control'
+  s.swift_versions   = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
